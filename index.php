@@ -28,8 +28,6 @@
  * By default development will show errors but testing and live will hide them.
  */
 
-date_default_timezone_set('asia/shanghai');
-
 if (defined('ENVIRONMENT'))
 {
 	switch (ENVIRONMENT)

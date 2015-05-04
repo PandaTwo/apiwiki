@@ -8,8 +8,8 @@ class m_apiCategory extends CI_Model
         parent::__construct();
         $this->load->database();
 
-        $this->load->model('m_apidescription');
-        $this->load->model('m_apiparams');
+        $this->load->model('m_apiDescription');
+        $this->load->model('m_apiParams');
     }
 
     public function addCategory($postData = array())

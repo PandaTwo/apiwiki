@@ -6,7 +6,7 @@
  * Date: 2015/4/25
  * Time: 20:48
  */
-class home extends CI_Controller
+class Home extends CI_Controller
 {
 
 
